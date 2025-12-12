@@ -1,2 +1,7 @@
 .env
 data/raw/*.csv
+presentation/presentation.aux
+presentation/presentation.fdb_latexmk
+presentation/presentation.fls
+presentation/presentation.log
+presentation/presentation.synctex.gz

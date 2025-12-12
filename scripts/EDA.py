@@ -56,7 +56,7 @@ def wordcloud_distribution(df_type, title):
     plt.figure(figsize = (9, 6))
     plt.imshow(wordcloud)
     plt.title(f"Wordcloud for {title} generated text")
-    plt.savefig("eda_images/wordcloud_{title}.png")
+    plt.savefig(f"eda_images/wordcloud_{title}.png")
     plt.show()
 
 
